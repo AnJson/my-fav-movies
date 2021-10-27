@@ -49,3 +49,11 @@ p {
   font-size: 1.7rem;
 }
 
+ul,
+dl,
+ol {
+  font-family: 'Crimson Text', serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+

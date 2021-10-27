@@ -74,7 +74,7 @@ template.innerHTML = `
 
 customElements.define('mfm-loader',
   /**
-   * Custom element aj-loader.
+   * Custom element mfm-loader.
    *
    **/
   class extends HTMLElement {

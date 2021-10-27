@@ -1,3 +1,1 @@
-import './components/loader/'
-
-
+import './components/mfm-loader'
