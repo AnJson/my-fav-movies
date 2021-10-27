@@ -19,7 +19,7 @@ _Css_ för respektive komponent skrivs i web-komponenten och endast en global cs
 _Collaborators_ jobbar individuellt i branches som döps efter standarden _name/feature_, tex _anders/loader_.
 När utvecklaren är nöjd med sin _feature_ och anser den vara klar görs en _Pull request_ på _github.com_ där man väljer en eller fler personer som får göra en _review_ och bedöma om pull request ska godkännas, justeras eller avvisas. Det räcker att __en__ person gör en _review_ men genom att kryssa i fler personer för review kan vem som helst av dessa göra den.
 
-### Kodstandard
+### Kodstandard (#8)
 
 Projektet följer kodstandarden för kursen _1dv025_ och använder lint för att säkerställa att den följs.
 
@@ -42,7 +42,7 @@ __Kraven på projektet är grundläggande krav, att utveckla fler funktioner fö
 
 I _global.css_ sätts projektets globala inställningar för css.
 
-_font-size_ är inställd globalt på 10px och i komponenter används enheten ___rem___ för att att ge en responsiv storlek på tex _text_, _marginaler_, _padding_, _width_ osv.
+_font-size_ är inställd globalt på 10px och i komponenter används enheten ___rem___ för att att ge en responsiv storlek på tex _text_, _marginaler_, _padding_, _width_ osv. (#10) 1rem är alltså 10px och 1.6rem är 16px.
 
 _font-family_ sätts även det till standard i _global.css_.
 
