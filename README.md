@@ -28,10 +28,10 @@ Projektet följer kodstandarden för kursen _1dv025_ och använder lint för att
 
 Siten ska (minst) uppfylla följande krav:
 
-1. En top-25 lista för ___filmer___ från imdb baserat på imdbs rating. Denna ska visa _thumbnail-image_, titel, år och rating. Man ska även kunna lägga till/ta bort filmen i _favoritlistan_.
-2. Det ska finnas en favorit-lista där mina markerade favoritfilmer visas. Denna lista ska visa _thumbnail-image_, titel, år, imdb-rating och _min egen rating_.
-3. _Min egen rating_ ska illustreras (ex en stapel/bar/cirkel) där användaren kan öka(fylla i) eller minska ifyllnaden i illustrationen genom knappar.
-4. En sökfunktion där sökning av filmer görs mot imdbs-api och visar resultaten i en lista med _thumbnail-image_, titel, år, imdb-rating och möjligheten att lägga till filmen i _favoritlistan_.
+(#1) En top-25 lista för ___filmer___ från imdb baserat på imdbs rating. Denna ska visa _thumbnail-image_, titel, år och rating. Man ska även kunna lägga till/ta bort filmen i _favoritlistan_.
+(#2) Det ska finnas en favorit-lista där mina markerade favoritfilmer visas. Denna lista ska visa _thumbnail-image_, titel, år, imdb-rating och _min egen rating_.
+(#3) _Min egen rating_ ska illustreras (ex en stapel/bar/cirkel) där användaren kan öka(fylla i) eller minska ifyllnaden i illustrationen genom knappar.
+(#4) En sökfunktion där sökning av filmer görs mot imdbs-api och visar resultaten i en lista med _thumbnail-image_, titel, år, imdb-rating och möjligheten att lägga till filmen i _favoritlistan_.
 
 __Kraven på projektet är grundläggande krav, att utveckla fler funktioner för de olika komponenterna uppmuntras!__
 
@@ -48,7 +48,7 @@ _font-family_ sätts även det till standard i _global.css_.
 
 _box-sizing_ är inställd globalt på _border-box_ och alla element i _body_ ärver denna inställning.
 
-### Färger
+### Färger (#5)
 
 Bakgrundsfärg på sidan är (vit): rgb(255, 255, 255) / #FFFFFF
 
@@ -62,14 +62,14 @@ Profilens identitet och grundfärg är (ljus blå): rgb(58, 194, 238) / #3AC2EE
 
 Accentfärg som används för att betona är (orange): rgb(255, 175, 97) / #FFAF61
 
-### Typografi
+### Typografi (#7)
 
 Rubriker (h1-h4) har typsnittet _Ubuntu_ och _font-weight: 600_.
 
 Brödtext (p, ul, ol, dl) har typsnittet _Crimson Text_ och _font-weight: 400_.
 
 
-## Teknisk specifikation
+## Teknisk specifikation (#6)
 
 Sidan är en single-page-application (SPA) som innebär att det endast finns __en__ _.html_-fil där innehållet renderas dynamiskt med hjälp av javascript.
 
