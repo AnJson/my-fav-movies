@@ -2,7 +2,7 @@
 
 ## Syfte
 
-Syftet med mFm är att inspirera och få inspiration om filmer. Användaren ska kunna spara sina favoritfilmer i en lista och ge dem eget betyg. Användaren ska även kunna se sina vänners favoritfilmer och deras betyg. Det ska också finnas en topplista från imdb och sökmöjlighet mot imdb:s api.
+Syftet med __mFm__ är att inspirera och få inspiration om filmer. Användaren ska kunna spara sina favoritfilmer i en lista och ge dem eget betyg. Användaren ska även kunna se sina vänners favoritfilmer och deras betyg. Det ska också finnas en topplista från imdb och sökmöjlighet mot imdb:s api.
 
 ## Filstruktur, Workflow och Kodstandard
 
@@ -21,7 +21,7 @@ När utvecklaren är nöjd med sin _feature_ och anser den vara klar görs en _P
 
 ### Kodstandard
 
-Projektet följer kursen kodstandarden för _1dv025_ och använder lint för att säkerställa att den följs.
+Projektet följer kodstandarden för kursen _1dv025_ och använder lint för att säkerställa att den följs.
 
 
 ## Kravspecifkation
@@ -50,17 +50,17 @@ _box-sizing_ är inställd globalt på _border-box_ och alla element i _body_ ä
 
 ### Färger
 
-Bakgrundsfärg på sidan är: rgb(255, 255, 255) / #FFFFFF
+Bakgrundsfärg på sidan är (vit): rgb(255, 255, 255) / #FFFFFF
 
-Textfärg på brödtext mot vit bakgrund: rgb(46, 46, 46) / #2E2E2E
+Textfärg på brödtext mot vit bakgrund (mörk grå): rgb(46, 46, 46) / #2E2E2E
 
-Textfärg på större rubriker mot vit bakgrund: rgb(110, 113, 119) / #6E7177
+Textfärg på större rubriker mot vit bakgrund (ljusare grå): rgb(110, 113, 119) / #6E7177
 
-Textfärg på brödtext mot mörk bakgrund: rgb(255, 255, 255) / #FFFFFF
+Textfärg på brödtext mot mörk bakgrund (vit): rgb(255, 255, 255) / #FFFFFF
 
-Profilens identitet och grundfärg är: rgb(58, 194, 238) / #3AC2EE
+Profilens identitet och grundfärg är (ljus blå): rgb(58, 194, 238) / #3AC2EE
 
-Accentfärg som används för att betona är: rgb(255, 175, 97) / #FFAF61
+Accentfärg som används för att betona är (orange): rgb(255, 175, 97) / #FFAF61
 
 ### Typografi
 
