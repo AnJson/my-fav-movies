@@ -21,9 +21,9 @@ template.innerHTML = `
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 6px solid rgba(122, 255, 122, 0.5);
-    border-color: rgba(122, 255, 122, 0.5) transparent transparent;
-    animation: pulse-ring 1.2s linear infinite;
+    border: 6px solid rgb(58, 194, 238);
+    border-color: rgb(58, 194, 238) transparent transparent;
+    animation: pulse-ring 1s linear infinite;
   }
 
   .loader::before {
@@ -34,9 +34,9 @@ template.innerHTML = `
     top: 53%;
     left: 53%;
     border-radius: 50%;
-    border: 6px solid rgb(73, 146, 73);
-    border-color: transparent transparent rgb(73, 146, 73);
-    animation: pulse-ring-translate 0.9s linear infinite;
+    border: 6px solid rgb(255, 175, 97);
+    border-color: transparent transparent rgb(255, 175, 97);
+    animation: pulse-ring-translate 0.6s linear infinite;
   }
 
   @keyframes pulse-ring-translate {
@@ -72,7 +72,7 @@ template.innerHTML = `
   </div>
 `
 
-customElements.define('aj-loader',
+customElements.define('mfm-loader',
   /**
    * Custom element aj-loader.
    *
