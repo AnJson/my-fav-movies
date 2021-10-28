@@ -13,11 +13,11 @@ html {
 }
 
 body {
-  box-sizing: content-box;
+  box-sizing: border-box;
   font-family: 'Crimson Text', serif;
   font-weight: 400;
   color: #2E2E2E;
-  width: 100vw;
+  width: 100%;
 }
 
 h1,
@@ -58,7 +58,67 @@ ol {
 }
 
 #app {
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 
+#header {
+  display: block;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(58, 194, 238);
+  color: #fff;
+}
+
+#header h1 {
+  color: #fff;
+}
+
+#main-content {
+  padding: 4rem 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.page-section {
+  width: calc(50% - 2rem);
+  height: 80vh;
+  border-radius: 3px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .3);
+}
+
+.page-section__nav {
+  display: block;
+  height: 5rem;
+  background-color: rgb(58, 194, 238);
+  color: #fff;
+  border-radius: 3px 3px 0 0;
+}
+
+.nav-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100%;
+}
+
+.nav-list__item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  #main-content {
+    width: 100%;
+    padding: 4rem 2rem;
+  }
+
+  .page-section {
+    width: 100%;
+  }
+}

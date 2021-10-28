@@ -6,10 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="./js/index.js"></script>
   <link rel="stylesheet" href="./css/global.css">
-  <title>Webcomponent Users-list</title>
+  <title>mFm | My Favourite Movies</title>
 </head>
 <body>
   <div id="app">
+    <header id="header">
+      <h1>Header</h1>
+    </header>
+    <main id="main-content">
+      <section class="page-section" id="movie-section">
+        <nav class="page-section__nav">
+          <ul class="nav-list" id="movies-nav">
+            <mfm-section-nav-element class="nav-list__item">Search</mfm-section-nav-element>
+            <mfm-section-nav-element class="nav-list__item">Top-25</mfm-section-nav-element>
+          </ul>
+        </nav>
+        <h2>Movies</h2>
+      </section>
+      <section class="page-section" id="list-section">
+        <nav class="page-section__nav">
+          <ul class="nav-list" id="list-nav">
+            <mfm-section-nav-element class="nav-list__item">Search</mfm-section-nav-element>
+            <mfm-section-nav-element class="nav-list__item">Top-25</mfm-section-nav-element>
+          </ul>
+        </nav>
+        <h2>Lists</h2>
+      </section>
+    </main>
   </div>
 </body>
 </html>
