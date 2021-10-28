@@ -3,7 +3,6 @@ const template = document.createElement('template')
 template.innerHTML = `
 <style>
   .loader-container {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
